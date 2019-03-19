@@ -1,33 +1,58 @@
 .App {
-  text-align: center;
+  color: rgb(120, 120, 250);
+  background-color: white;
+  height: 510px;
+  min-width: 333px;
+  max-width: 360px !important;
+  margin: 5% 0;
+  border: 1px solid whitesmoke;
+  box-shadow: 1em 1.33em 1em 0.33em rgba(55, 55, 55, 0.33);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.content-one {
+  height: 75px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+  font-size: 20px;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.content-two {
+  height: 370px;
+  padding: 12px;
+  overflow-y: scroll;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-entry {
+  height: 50px;
+  font-size: 22.5px;
+}
+
+.todo-add,
+.todo-remove,
+.todo-checkbox {
+  cursor: pointer;
+}
+
+.content-three {
+  height: 70px;
+}
+
+.footer {
+  height: 100%;
+}
+
+input {
+  padding: 7.5px 7.5px;
+  color: rgb(120, 120, 255);
+}
+
+.todo-icons {
+  color: rgb(80, 120, 140);
+}
+
+.finished {
+  text-decoration: line-through;
+  color: rgb(200, 150, 255);
 }
