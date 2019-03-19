@@ -1,6 +1,6 @@
 # Todo List
 
-![todo list img](./public/tdl-cover.png "todo list screenshot")
+![todo list png](./public/tdl_cover.png "todo list screenshot")
 
 ## Description
 
