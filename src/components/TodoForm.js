@@ -48,7 +48,7 @@ class TodoForm extends Component {
     /* Show input box after 'ADD NEW' is clicked */
     let todoInput = this.state.inputBoxShow ? (
       <input
-        autoFocus="true"
+        autoFocus={true}
         size="24"
         value={this.state.task}
         onChange={this.handleInput}
